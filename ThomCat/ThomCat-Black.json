@@ -19,5 +19,5 @@
     "timeline-highlights-color": "#00000030",
     "reaction-row-button-selected-bg-color": "#005f9e"
   },
-  "custom_css_url": "./telegram.css"
+  "custom_css_url": "telegram.css"
 }

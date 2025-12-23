@@ -1,0 +1,98 @@
+/* =======================================================
+   Telegram-style theme for Element
+   — message bubbles
+   — скрываем аватар
+   — скрываем спаны эмодзи
+   — compact layout
+   ======================================================= */
+
+/* ===== Base ===== */
+
+body {
+    font-family: "Roboto", "Inter", sans-serif !important;
+    background-color: #0e1621 !important;
+}
+
+/* ===== Room List ===== */
+
+.mx_RoomList,
+.mx_LeftPanel {
+    background-color: #1d2530 !important;
+}
+
+/* ===== Message Bubbles ===== */
+
+.mx_EventTile_line {
+    max-width: 70%;
+    padding: 8px 12px;
+    margin: 2px 0 !important;
+    border-radius: 12px !important;
+    line-height: 1.4;
+}
+
+/* Incoming messages */
+.mx_EventTile[data-own="false"] .mx_EventTile_line {
+    background-color: #182533 !important;
+    color: #e6e6e6 !important;
+}
+
+/* Outgoing */
+.mx_EventTile[data-own="true"] .mx_EventTile_line {
+    background-color: #1a75bb !important;
+    color: #ffffff !important;
+}
+
+/* ===== Grouped Messages ===== */
+
+.mx_EventTile_first .mx_EventTile_line {
+    border-top-left-radius: 16px !important;
+    border-top-right-radius: 16px !important;
+}
+
+.mx_EventTile_middle .mx_EventTile_line {
+    border-radius: 10px !important;
+}
+
+.mx_EventTile_last .mx_EventTile_line {
+    border-bottom-left-radius: 16px !important;
+    border-bottom-right-radius: 16px !important;
+}
+
+.mx_EventTile {
+    margin-bottom: 2px !important;
+}
+
+/* ===== Bot / HTML Cleanup ===== */
+
+.mx_Emoji {
+    all: unset !important;
+}
+
+.mx_Emoji[title] {
+    pointer-events: none;
+}
+
+.mx_EventTile_body span {
+    background: none !important;
+    border: none !important;
+}
+
+/* ===== Media ===== */
+
+.mx_MImageBody img,
+.mx_MVideoBody video {
+    border-radius: 12px !important;
+}
+
+/* ===== Timestamp ===== */
+
+.mx_MessageTimestamp {
+    color: #8b98a5 !important;
+    font-size: 10px;
+}
+
+/* ===== Hide avatars like Telegram ===== */
+
+.mx_EventTile_avatar {
+    display: none !important;
+}

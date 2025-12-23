@@ -1,22 +1,23 @@
 {
-    "name": "ThomCat black theme",
-    "is_dark": true,
-    "colors": {
-        "accent-color": "#cc7b19",
-        "primary-color": "#9F8652",
-        "warning-color": "#f9c003",
-        "sidebar-color": "#000000",
-        "roomlist-background-color": "#191919",
-        "roomlist-text-color": "#cc7b19",
-        "roomlist-text-secondary-color": "#e5e5e5",
-        "roomlist-highlights-color": "#323232",
-        "roomlist-separator-color": "#4c4c4c",
-        "timeline-background-color": "#000000",
-        "timeline-text-color": "#e5e5e5",
-        "secondary-content": "#e5e5e5",
-        "tertiary-content": "#e5e5e5",
-        "timeline-text-secondary-color": "#b2b2b2",
-        "timeline-highlights-color": "#212121",
-        "reaction-row-button-selected-bg-color": "#cc7b19"
-    }
+  "name": "Telegram-Style",
+  "is_dark": true,
+  "colors": {
+    "accent-color": "#00a8e8",
+    "primary-color": "#00a8e8",
+    "warning-color": "#00a8e8",
+    "sidebar-color": "#1d2530",
+    "roomlist-background-color": "#1d2530",
+    "roomlist-text-color": "#e6e6e6",
+    "roomlist-text-secondary-color": "#b0b0b0",
+    "roomlist-highlights-color": "#00000030",
+    "roomlist-separator-color": "#3a3f4c",
+    "timeline-background-color": "#0e1621",
+    "timeline-text-color": "#e6e6e6",
+    "secondary-content": "#d0d0d0",
+    "tertiary-content": "#b0b0b0",
+    "timeline-text-secondary-color": "#cccccc",
+    "timeline-highlights-color": "#00000030",
+    "reaction-row-button-selected-bg-color": "#005f9e"
+  },
+  "custom_css_url": "./css/telegram.css"
 }
